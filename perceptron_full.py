@@ -1,5 +1,6 @@
 #without bias unit and learning rate for now
 #assuming that error can be trained to 0
+#the weight is not random at the beginning
 class Perceptron:
   def __init__(self, num_inputs=2, weights=[1,1]):
     self.num_inputs = num_inputs
